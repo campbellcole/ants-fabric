@@ -16,6 +16,6 @@ public class AntModel extends AnimatedGeoModel<EntityAnt> {
 
     @Override
     public Identifier getAnimationResource(EntityAnt animatable) {
-        return null;
+        return new Identifier(Consts.MODID, "animations/ant.animation.json");
     }
 }
