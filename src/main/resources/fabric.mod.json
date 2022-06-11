@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "antarmy",
+  "version": "${version}",
+
+  "name": "Ant Army",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Campbell Cole"
+  ],
+  "contact": {
+    "homepage": "https://boyaard.net",
+    "sources": "https://github.com/campbellcole"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/antarmy/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.boyaard.antarmy.AntArmy"
+    ]
+  },
+  "mixins": [
+    "antarmy.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  }
+}

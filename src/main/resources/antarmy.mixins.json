@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.boyaard.antarmy.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "DebugMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
